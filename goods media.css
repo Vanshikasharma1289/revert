@@ -1,0 +1,591 @@
+    
+    /* this one is for the top part */
+  
+@media(max-width:800px){
+    .top p{
+        font-size: 15px;
+    }
+}
+  
+@media(max-width:400px){
+    .top p{
+         font-size: 16px;
+         }
+}
+
+
+/* this one is gor that cart and login section */
+@media(max-width:800px){
+       .lists{
+        display: none;
+       }
+       .barss{
+        display: block;
+       }
+}
+/* this one is for the big heading of main image */
+@media(max-width:1000px){
+    .abvimg h1{
+        font-size: 180px;
+    }
+    .abvimg h3{
+        font-size: 20px;
+    }
+    .btn1{
+        padding: 11px 35px;
+    }
+}
+@media(max-width:850px){
+    .abvimg h1{
+        font-size: 150px;
+    }
+    .abvimg h3{
+        font-size: 20px;
+    }
+    .btn1{
+        padding: 11px 35px;
+    }
+}
+@media(max-width:550px){
+    .abvimg h1{
+        font-size: 130px;
+    }
+    .abvimg h3{
+        font-size: 20px;
+    }
+    .btn1{
+        padding: 8px 30px;
+    }
+}
+@media(max-width:380px){
+    .abvimg h1{
+        font-size: 100px;
+    }
+    .abvimg h3{
+        font-size: 16px;
+    }
+    .btn1{
+        padding: 8px 30px;
+    }
+}
+
+/* this one is to chng the size of 4 images kbelow new in heading */
+@media(max-width:1210px){
+    .all{
+        display: none;
+    }
+    .oll{
+        display: block;
+    }
+}
+@media(max-width:1210px){
+          
+            .o11{
+                width: 80%;
+                padding: 0px 20px;
+               
+            }
+            .o12{
+                width: 80%;
+                padding: 0px 20px;
+            }
+           .o1{
+            width: 50%;
+           }
+           .o2{
+            width: 50%;
+           }
+            .o21{
+                width: 80%;
+                padding: 0px 20px;
+            }
+            .o22{
+                width: 80%;
+                padding: 0px 20px;
+            }
+
+
+
+}
+@media(max-width:680px){
+    .oll{
+        display: none;
+    }
+    .all{
+        display: none;
+    }
+    .sbb{
+        display: block;
+    }
+}
+
+@media(max-width:410px){
+      .sbb1{
+        width: 50%;
+        margin-left: 25%;
+      }
+}
+
+ /* this one is for the green part vo zero waste with image vala */
+
+ @media(max-width:1000px)
+ {
+
+    .written{
+        padding: 80px 0px;
+    }
+    .written h1{
+        font-size: 35px;
+    }
+ }
+ @media(max-width:750px)
+ {
+    .picture
+    {
+        display: none;
+    }
+    .written{
+        width: 100%;
+        padding: 20px;
+        background-color:#c4c197;
+    }
+    .written h1{
+        font-size: 35px;
+    }
+    .written p{
+        padding: 2px;
+    }
+    .extraimage{
+        display: block;
+    }
+}
+@media(max-width:550px){
+    .extraimage{
+        height: 220px;
+    }
+}
+
+/* this one is for the three images get zoomed out on hover */
+
+@media(max-width:1000px)
+{
+    .proone{
+        height: 230px;
+    }
+    .textone{
+        padding: 90px 0px;
+       
+    }
+    .textone h1{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .textone p{
+        font-size: 16px;
+    }
+    .protwo{
+        height: 230px;
+    }
+    .texttwo h1{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .texttwo{
+        padding: 90px 0px;
+       
+    }
+    .texttwo p{
+        font-size: 16px;
+    }
+    .prothree{
+        height: 230px;
+    }
+    .textthree h1{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .textthree{
+        padding: 90px 0px;
+       
+    }
+    .textthree p{
+        font-size: 16px;
+    }
+}
+@media(max-width:650px){
+    .full{
+        display: block;
+    }
+    .proone{
+        height: 230px;
+        width: 50%;
+        margin-left: 24%;
+    }
+    .textone{
+        padding: 88px 0px;
+       
+    }
+    .textone h1{
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .textone p{
+        font-size: 16px;
+    }
+    .protwo{
+        height: 230px;
+        width: 50%;
+        margin-left: 24%;
+        margin-top: 5%;
+    }
+    .texttwo h1{
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .texttwo{
+        padding: 88px 0px;
+       
+    }
+    .texttwo p{
+        font-size: 16px;
+    }
+    .prothree{
+        height: 230px;
+        width: 50%;
+        margin-left: 24%;
+        margin-top: 5%;
+    }
+    .textthree h1{
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .textthree{
+        padding: 88px 0px;
+       
+    }
+    .textthree p{
+        font-size: 16px;
+    }
+}
+@media(max-width:450px){
+    .proone{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .protwo{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .prothree{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .textone h1{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .texttwo h1{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .textthree h1{
+        font-size: 30px;
+        font-weight: 400;
+    }
+               
+}
+
+/* this one is new div with heading the revert mission */
+
+@media(max-width:850px)
+{
+    .rvtmsn h1{
+        font-size: 50px;
+        font-weight: 400;
+        color: #403f2b;
+    }
+    .rvtmsn p{
+        font-size: 18px;
+        font-weight: 300;
+        padding: 0px 0px 0px 0px;
+    }
+}
+@media(max-width:600px){
+    .rvtmsn h1{
+           font-size: 28px;
+
+    }
+    .p2{
+        display: block;
+
+    }
+    .p1{
+        display: none;
+    }
+}
+
+
+
+/* this one is for the 5 logos */
+
+@media(max-width:1000px){
+
+    .logos{
+        justify-content: center;
+    }
+    .logog2{
+        display: none;
+
+    }
+    .logog1{
+        width: 50%;
+        justify-content: right;
+        
+    }
+    .logog3{
+        width: 50%;
+        justify-content: left;
+        
+    }
+}
+
+@media(max-width:650px){
+
+    .logos{
+        flex-direction: column;
+    }
+    .logog1{
+        width: 100%;
+         justify-content: center;
+    }
+    .logog3{
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
+   
+
+
+
+  /* for the largest image */
+
+
+  @media(max-width:1200px){
+    .onthel{
+        background-position: right;
+        
+    }
+    .lon{
+        height: 700px;
+    }
+    .lbtn{
+        margin-top: 0%;
+    }
+  }
+  @media(max-width:1000px){
+
+    .textonn h3{
+        font-size: 30px;
+    }
+    .textonn h1{
+        font-size: 100px;
+    }
+    .onthel{
+        background-position: center;
+        
+    }
+    .lon{
+        height: 500px;
+    }
+  }
+
+  @media(max-width:650px)
+
+  {
+       
+    .lon{
+        height: 400px;
+    }
+    .textonn h3{
+        font-size: 20px;
+    }
+    .textonn h1{
+        font-size: 70px;
+    }
+  }
+
+
+  @media(max-width:480px)
+
+  {
+    .lon{
+        height: 300px;
+    }
+    .textonn h3{
+        font-size: 20px;
+    }
+    .textonn h1{
+        font-size: 50px;
+    }
+    .lbtn{
+        padding: 7px 15px;
+        font-size: 15px;
+    }
+  }
+
+
+  /* below end heading */
+
+  @media(max-width:1100px){
+            .az{
+                width: 85%;
+                display: block;
+                margin-left: 12%;
+                /* padding-left: 15%; */
+            }
+            .firsthalf{
+                margin-top: 4%;
+                height: 200px;
+                width: 90%;
+            }
+            .secondhalf{
+                margin-top: 8%;
+                height: 200px;
+                width: 90%;
+            }
+  }
+
+
+  @media(max-width:650px){
+    .longi{
+        display: block;
+    }
+    .az{
+        display: none;
+    }
+  }
+
+  @media(max-width:400px)
+
+  {
+
+    .ones{
+        height: 200px;
+    }
+    .twos{
+        height: 200px;
+    }
+    .threes{
+        height: 200px;
+
+
+    }
+    .fours{
+        height: 200px;
+    }
+  }
+
+
+
+  /* this is for that heading eco conscious */
+
+@media(max-width:1150px){
+    .texttt{
+        text-align: center;
+        width: 100%;
+        padding: 6% 0% 2% 0%;
+    }
+}
+
+@media(max-width:950px)
+{
+    .texttt h1{
+        font-size:45px;
+    }
+}
+
+@media(max-width:740px)
+{
+    .texttt h1{
+        font-size:55px;
+    }
+}
+
+@media(max-width:560px)
+{
+    .texttt h1{
+        font-size:40px;
+    }
+
+}
+
+
+
+/* form form and other portion */
+
+@media(max-width:1100px){
+    .xyz{
+        display: block;
+    }
+
+    .ab{
+        width: 75%;
+        margin-left: 15%;
+      
+    }
+    .ab1 p{
+        font-size: 25px;
+    }
+    .ab2{
+        font-size: 20px;
+    }
+
+    .cd{
+        justify-content: space-evenly;
+        width: 90%;
+        margin-left: 10%;
+    }
+}
+
+
+@media(max-width:740px)
+{
+
+    .ab1{
+        width: 100%;
+    }
+    .ab1 p{
+        font-size: 19px;
+    }
+}
+
+@media(max-width:630px)
+{
+    .mail{
+        padding-right: 90px;
+    }
+}
+
+
+@media(max-width:550px){
+    .cd{
+        display: block;
+    }
+    .cd p{
+            font-size: 20px;
+    }
+     .cd1{
+        width: 90% ;
+    
+     }
+    .cd2{
+        width: 90%;
+    }
+}   .cd3{
+          width: 90%;
+         
+}
+
+  

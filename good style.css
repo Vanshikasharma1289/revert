@@ -1,0 +1,1044 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Fraunces", serif;
+}
+.top{
+    width: 100%;
+    background-color: #e8e59b;
+    padding: 10px 0px;
+    text-align: center;
+}
+.top p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.now{
+    text-decoration: underline;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.menu{
+    width: 30%;
+    background-color:white ;
+    padding: 15px 0px;
+}
+.menu h1{
+    font-weight: 300;
+    color: #403f2b;
+}
+.rv{
+    width:30% ;
+    background-color:white ;
+    text-align: center;
+    padding: 15px 0px;
+
+}
+.rv h1{
+    font-weight: 300;
+    color: #403f2b;
+}
+
+.cartandlogin{
+    width: 30%;
+    background-color:white;
+    display: flex;
+    justify-content: end;
+    padding: 15px 0px;
+}
+.lists{
+    display: flex;
+}
+  .cartandlogin li{
+       list-style-type: none;
+      padding: 10px 0px;
+
+  }
+  .lists i{
+    padding: 0px 10px 0px 40px;
+    color: #403f2b;
+  }
+.cartandlogin a { 
+    text-decoration: none;
+    color: #403f2b;
+ 
+}
+.barss{
+    display: none;
+    padding-top: 10px;
+    font-size: 20px;
+}
+/* this one is for the main back image */
+.backimg{
+    width: 100%;
+    background-image: url(./close-up-organic-soap-bars.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.abvimg{
+    padding: 100px 0px;
+    text-align: center;
+}
+.abvimg h1{
+    font-size: 320px;
+    font-weight: 400;
+    color:#fffdc3 ;
+    animation-name: heading1;
+    animation-duration: 2s;
+}
+@keyframes heading1{
+     0%{
+        transform: translateY(150px);
+        opacity: 0;
+     }
+}
+
+.abvimg h3{
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+    animation-name: heading2;
+    animation-duration: 2s;
+}
+@keyframes heading2{
+    0%{
+       transform: translateY(100px);
+       opacity: 0;
+    }
+}
+.btn1{
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: white;
+    color: #403f2b;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    animation-name: onbtn;
+    animation-duration: 3s;
+}
+.btn1:hover{
+    background-color: #403f2b;
+    color: white;
+
+}
+@keyframes onbtn{
+    0%{
+       transform: translateY(40px);
+       opacity: 0;
+    }
+}
+/* this one id the haeding new in */
+.newin{
+    width: 100%;
+    padding: 55px 0px 10px 0px;
+    text-align: center;
+}
+.newin h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: #403f2b;
+
+}
+/* this one is for the products below newin heading */
+
+.all{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+  .inall{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+  }
+  .inall p{
+  
+    text-align: center;
+    color: #403f2b;
+  }
+.soap{
+  
+    width: 20%;
+    background-color: none;
+}
+.psoap{
+    padding: 20px 0px;
+    line-height: 20px;
+}
+
+
+.isoap{
+    height: 300px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 40px;
+    background-image: url(./soap.webp);
+    background-size: cover;
+}
+.wbrush{
+    width: 20%;
+    background-color: none;
+}
+.pwbrush{
+    padding: 20px 0px;
+    line-height: 20px;
+}
+.iwbrush{
+    height: 300px;
+        width: 100%;
+    background-color: pink;
+    border-radius: 40px;
+    background-image: url(./wooden\ brus.webp);
+    background-size: cover;
+}
+.tbrush{
+    width: 20%;
+    background-color: none;
+}
+.ptbrush{
+    padding: 20px 0px;
+    line-height: 20px;
+}
+.itbrush{
+    height: 300px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 40px;
+    background-image: url(./toothbrush.webp);
+    background-size: cover;
+}
+.bottle{
+    width: 20%;
+    background-color: none;
+}
+.pbottle{
+    padding: 20px 0px;
+    line-height: 20px;
+}
+.ibottle{
+    height: 300px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 40px;
+    background-image: url(./stainless\ steel\ bottle.webp);
+    background-size: cover;
+}
+
+
+/* ahh 1200px  pr display block hona div */
+.oll{
+    display: none;
+}
+.oll1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: none;
+}
+.imgo11{
+    height: 200px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 30px;
+    background-image: url(./soap.webp);
+    background-size: cover;
+}
+.imgo12{
+    height: 200px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 30px;
+    background-image: url(./wooden\ brus.webp);
+    background-size: cover;
+}
+.o1{
+    padding: 10px 0px;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+
+}
+.o11{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+.o12{
+    width: 40%;
+ 
+}
+.o2{
+    display: flex;
+    padding: 20px 0px;
+}
+.oll2{
+    display: flex;
+    justify-content: center;
+    background-color:none;
+}
+.o2{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.o21{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.o22{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.imgo21{
+    height: 200px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 30px;
+    background-image: url(./toothbrush.webp);
+    background-size: cover;
+
+}
+.imgo22{
+    height: 200px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 30px;
+    background-image: url(./stainless\ steel\ bottle.webp);
+    background-size: cover;
+
+}
+.oll1 p{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0px;
+  line-height: 0px;
+}
+.oll2 p{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0px;
+  line-height: 0px;
+}
+/* ahh oh portion hai jithe aa k straight line ch hone hai sbb images */
+
+.sbb{
+    background-color: none;
+    width: 100%;
+    display: none;
+}
+.sbb1{
+    width: 40%;
+    background-color: none;
+    margin-left: 31.5%;
+}
+
+
+.div11{
+    height: 250px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 30px;
+    background-image: url(./soap.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.div12{
+    height: 250px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 30px;
+    background-image: url(./stainless\ steel\ bottle.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.div13{
+    height: 250px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 30px;
+    background-image: url(./wooden\ brus.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.div14{
+    height: 300px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 30px;
+    background-image: url(./toothbrush.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.div2{
+    padding: 5px 0px 25px 0px;
+}
+.div2 p{
+    font-size: 20px;
+    color: #403f2b;
+    text-align: center;
+}
+
+
+/* this one is the green portion .......that zero waste bath products and a side picture vaala */
+
+
+.green{
+    background-color: #c4c197;
+    display: flex;
+    justify-content: end;
+}
+.written{
+    padding: 150px 0px;
+    color: #403f2b;
+    background-color: transparent;
+    width: 40%;
+}
+.written h1{
+    font-size:60px ;
+    font-weight: 350;
+}
+.written p{
+    font-size: 25px;
+    padding:25px 0px;
+    font-weight: 250;
+}
+.picture{
+    width: 55%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+.picture2{
+    margin: 6.5% 0%;
+    height: 85%;
+    width: 70%;
+    background-color: cadetblue;
+    border-radius: 40px;
+    background-image: url(./ssxero.png);
+    background-size: cover;
+}
+.btn2{
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #403f2b;
+    color: white;
+    border: 2px solid #403f2b;
+    font-size: 16px;
+    font-weight: 200;
+    transition-duration: 0.5s;
+}
+.btn2:hover{
+    background-color: transparent;
+    color: #403f2b;
+    font-weight: 400;
+}
+.extraimage{
+    width: 100%;
+   height: 300px;
+    background-image: url(./pexels-alleksana-4406808.jpg);
+    background-size: cover;
+      background-position: center;
+      display: none;
+}
+
+/* this one is of heading shop collection  */
+ 
+.shopcol{
+    width: 100%;
+    background-color:none;
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 18px;
+    color: #403f2b;
+   
+}
+.shopcol h1{
+    font-weight: 350;
+}
+
+
+/* this one is for the three images */
+
+.full{
+    width: 100%;
+    background-color: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px 100px 0px;
+}
+.proone{
+    height: 290px;
+    width: 25%;
+    background-color: none;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.protwo{
+    height: 290px;
+    width: 25%;
+    background-color: none;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.prothree{
+    height: 290px;
+    width: 25%;
+    background-color: none;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.onone{
+    height: 100%;
+    width:100%;
+    background-image: url(./Screenshot\ 2024-09-27\ 133312.png);
+    background-size: cover;
+    border-radius: 40px;
+    transition-duration: 0.7s;
+}
+
+.onone:hover{
+    transform: scale(1.1);
+}
+.ontwo{
+    height: 100%;
+    width:100%;
+    background-image: url(./Screenshot\ 2024-09-27\ 133535.png);
+    background-size: cover;
+    border-radius: 40px;
+    transition-duration: 0.7s;
+}
+
+.ontwo:hover{
+    transform: scale(1.2);
+}
+.onthree{
+    height: 100%;
+    width:100%;
+    background-image: url(./Screenshot\ 2024-09-27\ 133732.png);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 40px;
+    transition-duration: 0.7s;
+}
+
+.onthree:hover{
+    transform: scale(1.1);
+}
+.textone{
+    padding: 110px 0px;
+    text-align: center;
+    background-color: rgba(63, 62, 62, 0.408);
+    color: white;
+}
+.textone h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.textone p{
+    font-size: 20px;
+}
+.texttwo{
+    padding: 110px 0px;
+    text-align: center;
+    background-color: rgba(63, 62, 62, 0.408);
+    color: white;
+}
+.texttwo h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.texthree p{
+    font-size: 20px;
+}
+.textthree{
+    padding: 110px 0px;
+    text-align: center;
+    background-color: rgba(63, 62, 62, 0.408);
+    color: white;
+}
+.textthree h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.textthree p{
+    font-size: 20px;
+}
+
+/* this one is new div with heading the revert mission */
+
+.rvtmsn{
+    background-color: #ddddcc;
+    text-align: center;
+    padding: 20px 0px;
+}
+.rvtmsn h1{
+    font-size: 60px;
+    font-weight: 400;
+    color: #403f2b;
+}
+.rvtmsn p{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 00px 0px 0px 0px;
+}
+.p2{
+     font-size: 19px;  
+     display: none;  
+}
+
+
+/* logos portion */
+.logos{
+   
+    width: 100%;
+    background-color: #ddddcc;
+     display: flex;
+    justify-content: center; 
+}
+.logog1{
+   
+    width: 35%;
+    background-color: #ddddcc;
+    display: flex;
+    justify-content: space-evenly;
+}
+.firstlogo{
+    height:130px ;
+    width: 30%;
+    background-color:#ddddcc;
+    margin: 20px 0px;
+  
+ 
+}
+.secondlogo{
+    height:130px ;
+    width: 30%;
+    background-color:#ddddcc;
+    margin: 20px 0px;
+ 
+}
+ .logog2{
+   
+    width: 11%;
+    background-color: #ddddcc;
+    display: flex;
+    justify-content: center;
+} 
+.thirdlogo{
+    height:130px ;
+    width: 100%;
+    background-color: #ddddcc;
+    margin: 20px 0px;
+}
+
+
+.logog3{
+   
+    width: 35%;
+    background-color: #ddddcc;
+    display: flex;
+    justify-content: space-evenly;
+}
+.forthlogo{
+    height:130px ;
+    width: 30%;
+    background-color: #ddddcc;
+    margin: 20px 0px;
+}
+.fifthlogo{
+    height:130px ;
+    width: 30%;
+    background-color: #ddddcc;
+    margin: 20px 0px;
+}
+
+.paragraphh{
+    padding: 2% 15% 8% 15%;
+    width: 70%;
+    background-color: #ddddcc;
+}
+.paragraphh p{
+    font-weight: 300;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+.largestdiv{
+  
+    width: 100%;
+    background-color:none;
+    display: flex;
+    justify-content: center;
+}
+.lon{
+    margin: 4% 0%;
+    height: 900px;
+    width: 85%;
+    background-color: none;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.onthel{
+    height: 100%;
+    width: 100%;
+    background-color: none;
+    border-radius: 40px;
+    background-image: url(./kid-with-mom-watering-potted-plants-home.jpg);
+    background-size: cover;
+    transition-duration: 1s;
+    
+}
+.onthel:hover{
+    transform: scale(1.1);
+
+}
+.textonn{
+    padding: 13% 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.451);
+    text-align: center;
+
+}
+.textonn h3{
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+}
+.textonn h1{
+    font-size: 150px;
+    font-weight: 500;
+    color:#fffdc3 ;
+}
+.lbtn{
+    border: none;
+    padding: 12px 50px;
+    border-radius: 30px;
+    font-size: 17px;
+    margin-top: 5%;
+}
+
+
+/* this is the last green portion  ki top heading part */
+
+.flw{
+    background-color: #e8e59b;
+    text-align: center;
+    padding: 50px 0px 30px 0px;
+}
+.flw h1{
+    
+    color: #403f2b;
+    font-size: 35px;
+    font-weight: 300;
+}
+.link{
+    color: #403f2b;
+    font-size: 65px;
+    text-decoration: none;
+    font-weight: 350;
+}
+
+
+/* below end heading */
+.allaz{
+    width: 100%;
+    background-color: #e8e59b;
+}
+.az{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    background-color: #e8e59b;
+}
+
+.firsthalf{
+    width: 37%;
+    background-color: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e8e59b;
+  
+}
+.first1{
+    height: 230px;
+    width: 45%;
+    background-color: pink;
+    margin-right: 1%;
+    border-radius: 30px;
+    background-image: url(./Screenshot\ 2024-10-01\ 220435.png);
+    background-size: cover;
+
+
+}
+.second2{
+    height: 230px;
+    width: 45%;
+    background-color: pink;
+    margin-left: 2%;
+    border-radius: 30px;
+    background-image: url(./pexels-ba-tik-3754207.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+}
+.secondhalf{
+    width: 37%;
+    background-color: none;
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #e8e59b;
+}
+.third3{
+    height: 230px;
+    width: 45%;
+    background-color: pink;
+    margin-right: 0%;
+    border-radius: 30px;
+    background-image: url(./pexels-sarah-chai-7262407.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.forth4{
+    height: 230px;
+    width: 45%;
+    background-color: pink;
+    margin-left: 2%;
+   border-radius: 30px;
+   background-image: url(./Screenshot\ 2024-10-01\ 221640.png);
+   background-size: cover;
+}
+
+
+   /* below 600px */
+
+    .fullwid{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color:#e8e59b;
+    }
+  .longi{
+    width: 60%;
+    background-color: none;
+    display: none;
+    background-color: #e8e59b;
+  }
+   .ones
+   {
+    margin: 10% 0%;
+    height: 250px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 30px;
+    background-image: url(./Screenshot\ 2024-10-01\ 220435.png);
+    background-size: cover;
+
+   }
+
+   .twos
+   {
+    margin: 10% 0%;
+    height: 250px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 30px;
+    background-image: url(./pexels-ba-tik-3754207.jpg);
+    background-size: cover;
+    background-position: bottom;
+   }
+   .threes
+   {
+  margin: 10% 0%;
+    height: 250px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 30px;
+    background-image: url(./pexels-sarah-chai-7262407.jpg);
+    background-size: cover;
+    background-position: center;
+   }
+   .fours
+   {
+    margin: 10% 0%;
+    height: 250px;
+    width: 100%;
+    background-color: pink;
+    border-radius: 30px;
+    background-image: url(./Screenshot\ 2024-10-01\ 221640.png);
+    background-size: cover;
+   }
+
+.anylinediv{
+    height: 1px;
+    background-color: #403f2b;
+    
+    
+}
+
+    .khaali{
+        width: 100%;
+        background-color: #e8e59b;
+    }
+   .texttt{
+    padding: 3% 8%;
+    width: 40%;
+    color: #403f2b;
+    background-color:#e8e59b;
+ 
+    
+   
+   }
+   .texttt h1{
+    font-size: 60px;
+    font-weight: 400;
+   }
+
+
+ /* for the form and other portion */
+
+.xyz{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #e8e59b;
+}
+
+    .ab{
+        width: 45%;
+    }
+   .ab1{
+    width: 90%;
+    padding: 40px 0px;
+    background-color: #e8e59b;
+    color: #403f2b;
+   }
+   .ab1{
+    font-size: 18px;
+    font-weight: 300;
+   }
+   .ab2{ 
+    padding: 30px 0px;
+    margin-top: 5%;
+    width: 90%;
+    height: 250px;
+    background-color: #e8e59b;
+    font-size: 19px;
+    font-weight: 350;
+   }
+   .mail{
+    padding:15px 300px 5px 0px;
+    font-size: 16px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #403f2b;
+    outline: none;
+
+   }
+   .sbmt{ 
+      padding: 13px 40px;
+      margin-top: 8%;
+      border-radius: 30px;
+      color: #403f2b;
+      background-color: transparent;
+      font-size: 15px;
+      transition-duration: 0.5s;
+      border:2px solid #403f2b;
+   }
+
+   .sbmt:hover{
+    background-color: #403f2b;
+    color: white;
+   }
+   .cd{
+   
+    width: 40%;
+    background-color: #e8e59b;
+    display: flex;
+    justify-content:center;
+   }
+   .cd1{
+    
+  padding: 30px 0px;
+    width: 40%;
+    height: 70%;
+    background-color: #e8e59b;
+   }
+   .cd1 a{
+    text-decoration: none;
+    color: #403f2b;
+   }
+   .cd1 p{
+    padding: 10px 0px;
+    font-size: 17px;
+    font-weight: 300;
+   }
+   .cd2{
+    padding: 30px 0px;
+    width: 40%;
+    height: 70%;
+    background-color: #e8e59b;
+   }
+   .cd2 a{
+    text-decoration: none;
+    color: #403f2b;
+   }
+   .cd2 p{
+    padding: 10px 0px;
+    font-size: 17px;
+    font-weight: 300;
+   }
+   .cd3{
+    width: 40%;
+    height: 70%;
+    background-color: #e8e59b;
+    padding: 30px 0px;
+   }
+   .cd3 a{
+    text-decoration: none;
+    color: #403f2b;
+   }
+   .cd3 p{
+    text-transform: capitalize;
+    padding: 10px 0px;
+    font-size: 17px;
+    font-weight: 300;
+   }
+
+
+
+
+
+   .lastt{
+    width: 100%;
+     padding: 3% 0%;
+      background-color: #e8e59b ;
+    text-align: center;
+   }
+   .lastt a{
+    color: #403f2b;
+    padding: 0px 10px;
+   }
